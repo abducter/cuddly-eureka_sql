@@ -1,0 +1,25 @@
+
+-- Some queries that we're supposed to do for practice...
+
+-- TASK 1
+SELECT * FROM film
+GROUP BY rating;
+
+
+-- TASK 2
+SELECT replacement_cost, COUNT(replacement_cost) FROM film
+GROUP BY replacement_cost
+HAVING COUNT(replacement_cost) > 50;
+
+-- TASK 3
+SELECT store_id, COUNT(*) FROM customer
+GROUP BY store_id;
+
+-- TASK 4
+SELECT country_id, COUNT(*) FROM city
+GROUP BY country_id
+ORDER BY COUNT(*) DESC
+LIMIT 1;
+
+
+-- End of homework
