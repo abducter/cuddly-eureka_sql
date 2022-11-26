@@ -1,0 +1,24 @@
+
+-- Some queries that we're supposed to do for practice...
+
+-- TASK 1
+
+SELECT DISTINCT replacement_cost FROM film;
+
+-- TASK 2
+SELECT COUNT (DISTINCT replacement_cost) FROM film;
+
+-- TASK 3
+SELECT COUNT (title) FROM film
+WHERE title LIKE 'T%' AND rating = 'G';
+
+-- TASK 4
+SELECT COUNT (country) FROM country
+WHERE country LIKE '_____';
+
+-- TASK 5
+SELECT COUNT (country) FROM country
+WHERE country ILIKE '%r';
+
+
+-- End of homework
