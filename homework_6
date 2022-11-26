@@ -1,0 +1,19 @@
+
+-- Some queries that we're supposed to do for practice...
+
+-- TASK 1
+SELECT AVG(rental_rate) from film;
+
+-- TASK 2
+SELECT COUNT(title) from film
+WHERE title LIKE 'C%';
+
+-- TASK 3
+SELECT MAX(length) from film
+WHERE rental_rate = 0.99;
+
+-- TASK 4
+SELECT COUNT(DISTINCT replacement_cost) FROM film
+WHERE length > 150
+
+-- End of homework
