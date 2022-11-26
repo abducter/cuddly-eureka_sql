@@ -2,7 +2,7 @@
 -- Some queries that we're supposed to do for practice...
 
 -- TASK 1
-SELECT AVG(rental_rate) from film;
+SELECT ROUND(AVG(rental_rate),2) from film;
 
 -- TASK 2
 SELECT COUNT(title) from film
